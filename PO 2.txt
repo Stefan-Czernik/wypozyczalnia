@@ -1,0 +1,18 @@
+Zad 1: Stworzyć klasy + obiekty
+Stworzono klasy: Wspolny, po ktorej dziedziczy kazda kolejna klasa- Ksiazki, PlytyMuzyczne, Filmy, Audiobooki i Ebooki
+Stworzono obiekt wsp do ktorego dodano dane z klasy Wspolny oraz obiekt ks do ktorego dodano dane zbiorowe z klasy Wspolny oraz idnywidualna dla klasy Ksiazki.
+ 
+
+Zad2: Czas wypożyczenia+ nakładanie kar
+Stworzono metodę kara w klasie Wspolny, przyjmuje ona zmienną wypozyczenie oraz dataRozpoczecia i w przypadku, gdy zmienna wypozycznie ma wartosc true: 
+jesli data obecna jest pozniejsza o ponad 30 dni od daty rozpoczecia, to za kazdy dzien ponad 30 nalicza 30gr kary. 
+
+Zad 3: użytkownik+ blokowanie za nieterminowe oddanie
+Stworzono klasę Uzytkownik, gdzie przechowywane są zmienne danych dla kazdego klienta
+Stworzono metodę czyZablokowac, ktora sprawdza czy zostaly oplacone wszystkie zaleglosci.
+Stworzono obiekt jan, ktory symbolizuje pierwszego uzykownika
+
+Brakuje: 
+metody z warunkiem: if (jan.czyZablokowac()) == true { nie wypozyczaj }
+historii wypozyczeń
+
